@@ -1,0 +1,138 @@
+|labTwo
+switches[0] => leds[0].DATAIN
+switches[1] => leds[1].DATAIN
+switches[2] => leds[2].DATAIN
+switches[3] => leds[3].DATAIN
+switches[4] => leds[4].DATAIN
+switches[5] => leds[5].DATAIN
+switches[6] => leds[6].DATAIN
+switches[7] => leds[7].DATAIN
+switches[8] => leds[8].DATAIN
+switches[9] => leds[9].DATAIN
+leds[0] <= switches[0].DB_MAX_OUTPUT_PORT_TYPE
+leds[1] <= switches[1].DB_MAX_OUTPUT_PORT_TYPE
+leds[2] <= switches[2].DB_MAX_OUTPUT_PORT_TYPE
+leds[3] <= switches[3].DB_MAX_OUTPUT_PORT_TYPE
+leds[4] <= switches[4].DB_MAX_OUTPUT_PORT_TYPE
+leds[5] <= switches[5].DB_MAX_OUTPUT_PORT_TYPE
+leds[6] <= switches[6].DB_MAX_OUTPUT_PORT_TYPE
+leds[7] <= switches[7].DB_MAX_OUTPUT_PORT_TYPE
+leds[8] <= switches[8].DB_MAX_OUTPUT_PORT_TYPE
+leds[9] <= switches[9].DB_MAX_OUTPUT_PORT_TYPE
+dig1[0] <= sevenSegDigit:digit1.dispBits[0]
+dig1[1] <= sevenSegDigit:digit1.dispBits[1]
+dig1[2] <= sevenSegDigit:digit1.dispBits[2]
+dig1[3] <= sevenSegDigit:digit1.dispBits[3]
+dig1[4] <= sevenSegDigit:digit1.dispBits[4]
+dig1[5] <= sevenSegDigit:digit1.dispBits[5]
+dig1[6] <= sevenSegDigit:digit1.dispBits[6]
+dig1[7] <= sevenSegDigit:digit1.dispBits[7]
+dig2[0] <= sevenSegDigit:digit2.dispBits[0]
+dig2[1] <= sevenSegDigit:digit2.dispBits[1]
+dig2[2] <= sevenSegDigit:digit2.dispBits[2]
+dig2[3] <= sevenSegDigit:digit2.dispBits[3]
+dig2[4] <= sevenSegDigit:digit2.dispBits[4]
+dig2[5] <= sevenSegDigit:digit2.dispBits[5]
+dig2[6] <= sevenSegDigit:digit2.dispBits[6]
+dig2[7] <= sevenSegDigit:digit2.dispBits[7]
+dig3[0] <= sevenSegDigit:digit3.dispBits[0]
+dig3[1] <= sevenSegDigit:digit3.dispBits[1]
+dig3[2] <= sevenSegDigit:digit3.dispBits[2]
+dig3[3] <= sevenSegDigit:digit3.dispBits[3]
+dig3[4] <= sevenSegDigit:digit3.dispBits[4]
+dig3[5] <= sevenSegDigit:digit3.dispBits[5]
+dig3[6] <= sevenSegDigit:digit3.dispBits[6]
+dig3[7] <= sevenSegDigit:digit3.dispBits[7]
+dig4[0] <= sevenSegDigit:digit4.dispBits[0]
+dig4[1] <= sevenSegDigit:digit4.dispBits[1]
+dig4[2] <= sevenSegDigit:digit4.dispBits[2]
+dig4[3] <= sevenSegDigit:digit4.dispBits[3]
+dig4[4] <= sevenSegDigit:digit4.dispBits[4]
+dig4[5] <= sevenSegDigit:digit4.dispBits[5]
+dig4[6] <= sevenSegDigit:digit4.dispBits[6]
+dig4[7] <= sevenSegDigit:digit4.dispBits[7]
+dig5[0] <= sevenSegDigit:digit5.dispBits[0]
+dig5[1] <= sevenSegDigit:digit5.dispBits[1]
+dig5[2] <= sevenSegDigit:digit5.dispBits[2]
+dig5[3] <= sevenSegDigit:digit5.dispBits[3]
+dig5[4] <= sevenSegDigit:digit5.dispBits[4]
+dig5[5] <= sevenSegDigit:digit5.dispBits[5]
+dig5[6] <= sevenSegDigit:digit5.dispBits[6]
+dig5[7] <= sevenSegDigit:digit5.dispBits[7]
+
+
+|labTwo|sevenSegDigit:digit1
+decimalNum[0] => Decoder0.IN3
+decimalNum[1] => Decoder0.IN2
+decimalNum[2] => Decoder0.IN1
+decimalNum[3] => Decoder0.IN0
+dispBits[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[7] <= <VCC>
+
+
+|labTwo|sevenSegDigit:digit2
+decimalNum[0] => Decoder0.IN3
+decimalNum[1] => Decoder0.IN2
+decimalNum[2] => Decoder0.IN1
+decimalNum[3] => Decoder0.IN0
+dispBits[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[7] <= <VCC>
+
+
+|labTwo|sevenSegDigit:digit3
+decimalNum[0] => Decoder0.IN3
+decimalNum[1] => Decoder0.IN2
+decimalNum[2] => Decoder0.IN1
+decimalNum[3] => Decoder0.IN0
+dispBits[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[7] <= <VCC>
+
+
+|labTwo|sevenSegDigit:digit4
+decimalNum[0] => Decoder0.IN3
+decimalNum[1] => Decoder0.IN2
+decimalNum[2] => Decoder0.IN1
+decimalNum[3] => Decoder0.IN0
+dispBits[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[7] <= <VCC>
+
+
+|labTwo|sevenSegDigit:digit5
+decimalNum[0] => Decoder0.IN3
+decimalNum[1] => Decoder0.IN2
+decimalNum[2] => Decoder0.IN1
+decimalNum[3] => Decoder0.IN0
+dispBits[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+dispBits[7] <= <VCC>
+
+

@@ -1,0 +1,13 @@
+module miniALU(added1, added2, operation, out);
+	input [3:0] addend1, addend2;
+	input [0] operation;
+	output [19:0] out;
+	
+	always_comb begin
+	if (input == 1'b0)
+		out = added1 + added2;
+	else
+		out = addend1 << addend2;
+	end
+	
+endmodule

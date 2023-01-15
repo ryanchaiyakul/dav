@@ -1,0 +1,26 @@
+module Lab3(switches, reset, pause, leds, dig0, dig1, dig2, dig3, dig4, dig5, clock);
+    input [9:0] switches; // Declare the switches as inputs
+    output [9:0] leds; // Declare the leds as outputs
+    output [7:0] dig0, dig1, dig2, dig3, dig4, dig5; // Set the digits of the seven seg disp
+    input reset; 
+    input pause; // set the reset and start buttons
+    
+    // assign leds = switches // assign the leds to switches (so that there is a hardware match for the switch state)
+    // Temp unassign because we want to test the functionality of the button.
+    
+    reg [7:0] counter;
+    
+    reg [1:0] state;
+    
+    // We want the reset button to asign isOn to 0 and we want the start button to toggle the value of isOn.
+    parameter set = 2'b00;
+    parameter run = 2'b01;
+    parameter pause = 2'b10;
+    parameter beep = 2'b11;
+    
+    always@(posedge clock, posedge reset)
+    begin
+        case (state):
+            
+    end
+endmodule

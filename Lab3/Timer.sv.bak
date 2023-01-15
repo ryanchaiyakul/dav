@@ -1,0 +1,39 @@
+module Timer();
+	reg [18:0] counter;
+	reg [1:0] state, nextstate;
+
+	// S
+	parameter SET = 2'b00;
+	parameter RUN = 2'b01;
+	parameter PAUSE = 2'b10;
+	parameter BEEP = 2'b11;
+
+	always@(posedge clock, posedge reset) begin
+	  if (reset) begin
+			// Set state to 'SET' and reset counter value
+			state <= SET;
+			counter = 19'd0;
+			end
+	  else state <= nextstate;
+	end
+
+	always @ (state, posedge pause) begin
+		case (state)
+		SET : if (pause)
+						nextstate = RUN;
+				else 	nextstate = SET;
+				// Set value of counter based on switches
+		RUN : if (pause)
+						nextstate = PAUSE;
+				else 	nextstate = RUN;
+				// Deincrement down based on posedge of correct clock
+		PAUSE : 
+				if (pause)
+						nextstate = RUN
+				else 	nextstate = PAUSE;
+				// Do nothing
+		BEEP : nextstate = BEEP;
+				// Do beep thing
+		default : nextstate = SET;
+	end
+endmodule

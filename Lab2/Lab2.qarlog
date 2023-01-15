@@ -1,0 +1,19 @@
+Quartus Prime Archive log --	C:/Users/12345/Documents/Quartus/DAV/Lab2/Lab2.qarlog
+
+Archive:	C:/Users/12345/Documents/Quartus/DAV/Lab2/Lab2.qar
+Date:		Thu Nov 10 11:03:31 2022
+Quartus Prime		21.1.0 Build 842 10/21/2021 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/12345/Documents/Quartus/DAV/Lab2/Lab2.qpf
+C:/Users/12345/Documents/Quartus/DAV/Lab2/Lab2.qsf
+C:/Users/12345/Documents/Quartus/DAV/Lab2/labTwo.sv
+C:/Users/12345/Documents/Quartus/DAV/Lab2/miniALU.sv
+C:/Users/12345/Documents/Quartus/DAV/Lab2/sevenSegDigit.sv
+C:/Users/12345/Documents/Quartus/DAV/Lab2/sevenSegDisp.sv
+C:/Users/12345/Documents/Quartus/DAV/Lab2/tb_labTwo.sv
+c:/intelfpga_lite/21.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 8 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

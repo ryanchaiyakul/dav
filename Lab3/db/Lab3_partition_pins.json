@@ -1,0 +1,249 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "leds[0]",
+					"strict" : false
+				},
+				{
+					"name" : "leds[1]",
+					"strict" : false
+				},
+				{
+					"name" : "leds[2]",
+					"strict" : false
+				},
+				{
+					"name" : "leds[9]",
+					"strict" : false
+				},
+				{
+					"name" : "dig0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dig0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dig0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dig0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dig0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dig0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dig0[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dig1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dig1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dig1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dig1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dig1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dig1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dig1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dig2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dig2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dig2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dig2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dig2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dig2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dig2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dig3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dig3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dig3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dig3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dig3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dig3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dig3[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dig4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dig4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dig4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dig4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dig4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dig4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dig4[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dig5[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dig5[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dig5[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dig5[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dig5[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dig5[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dig5[7]",
+					"strict" : false
+				},
+				{
+					"name" : "buzzer",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "startstop",
+					"strict" : false
+				},
+				{
+					"name" : "switches[0]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[3]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[4]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[5]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[2]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[1]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[6]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[7]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[8]",
+					"strict" : false
+				},
+				{
+					"name" : "switches[9]",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

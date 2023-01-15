@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at Stopwatch.sv(4): object "reset" differs only in case from object "RESET" in the same scope File: C:/Users/12345/Documents/Quartus/DAV/Lab3/Stopwatch.sv Line: 4
+Warning (10268): Verilog HDL information at Timer.sv(59): always construct contains both blocking and non-blocking assignments File: C:/Users/12345/Documents/Quartus/DAV/Lab3/Timer.sv Line: 59

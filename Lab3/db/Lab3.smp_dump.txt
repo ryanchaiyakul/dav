@@ -1,0 +1,7 @@
+
+State Machine - |Lab3|Timer:comb_6|state
+Name state.BEEP state.PAUSE state.RUN state.SET 
+state.SET 0 0 0 0 
+state.RUN 0 0 1 1 
+state.PAUSE 0 1 0 1 
+state.BEEP 1 0 0 1 

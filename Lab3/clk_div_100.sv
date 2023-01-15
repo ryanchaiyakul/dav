@@ -1,0 +1,18 @@
+module clk_div_100 (input clk, output reg newClk);
+	reg [18:0] counter = 0;
+	
+	always@(posedge clk) begin
+		if (counter == 500000)
+			counter <= 0;
+		else
+			counter <= counter + 19'd1;
+	end
+	
+	always_comb begin
+		if (counter == 0)
+			newClk = 1;
+		else
+			newClk = 0;
+	end
+	
+endmodule

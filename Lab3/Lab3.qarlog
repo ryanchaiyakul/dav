@@ -1,0 +1,22 @@
+Quartus Prime Archive log --	C:/Users/12345/Documents/Quartus/DAV/Lab3/Lab3.qarlog
+
+Archive:	C:/Users/12345/Documents/Quartus/DAV/Lab3/Lab3.qar
+Date:		Thu Dec  1 18:57:08 2022
+Quartus Prime		21.1.0 Build 842 10/21/2021 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/12345/Documents/Quartus/DAV/Lab3/Lab3.qpf
+C:/Users/12345/Documents/Quartus/DAV/Lab3/Lab3.qsf
+C:/Users/12345/Documents/Quartus/DAV/Lab3/Lab3.sv
+C:/Users/12345/Documents/Quartus/DAV/Lab3/Stopwatch.sv
+C:/Users/12345/Documents/Quartus/DAV/Lab3/Timer.sv
+C:/Users/12345/Documents/Quartus/DAV/Lab3/clk_div_100.sv
+C:/Users/12345/Documents/Quartus/DAV/Lab3/clk_div_200.sv
+C:/Users/12345/Documents/Quartus/DAV/Lab3/clk_div_600.sv
+C:/Users/12345/Documents/Quartus/DAV/Lab3/sevenSegDigit.sv
+C:/Users/12345/Documents/Quartus/DAV/Lab3/sevenSegDisp.sv
+c:/intelfpga_lite/21.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 11 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
